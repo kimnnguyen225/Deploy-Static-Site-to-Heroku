@@ -13,6 +13,7 @@ Heroku hosts *apps* on the internet, not *static website*. However, if you want 
 - A [Heroku app](https://devcenter.heroku.com/start) and remote are set-up and ready to go.
 
 ## Instruction steps
+0. Run command, type: **heroku buildpacks:set heroku/php**
 1. Add a file called *composer.json* to the root directory **by running cmd or directly from your project folder that you have it opened in IDE** --type: **touch composer.json** or --on command window, type: **type nul > composer.json** (this will create a zero bytes in compoer.json file) or another way, you type: **echo.> composer.json** (**echo.** will create a file with 1 empty line in it)
 2. Open *composer.json* and add the following line: `{}`, then save file
 3. Add a file called *index.php* to the root directory by running **cmd: touch index.php** or **nul > index.php**

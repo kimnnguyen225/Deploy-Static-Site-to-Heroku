@@ -1,4 +1,4 @@
-# How to deploy your static site HTML, CSS, JS to Heroku as a 'fake' PHP app
+# Link => [How to deploy your static site HTML, CSS, JS to Heroku as a 'fake' PHP app](https://ktnguyen.herokuapp.com/blog/2019/05/17/heroku-fake-php-app-as-static-site.html)
 
 ## What is Heroku? Why do this?
 Heroku hosts *apps* on the internet, not *static website*. However, if you want it to run your static porfolio, personal blog, responsive landing page, etc., you can trick [Heroku](https://www.heroku.com/) to think your page is *PHP app*.
@@ -32,3 +32,9 @@ Once your app is finished deployed to Heroku, you can go back to Heroku and clic
 ## Dependencies
 ### For example:
 - If your app runs jQuery, then you can go to [CNDJS](https://cdnjs.com/) and search for *jquery*, CND will give you a list of results that it found for the library that your app depends on, hover over the one you want to copy script tag, then place it inside your HTML file. **Benefits?** jQuery library will be pulled from the internet directly versus local file.
+
+![Kim Nguyen](https://res.cloudinary.com/dnw6i7lsh/image/upload/v1559108492/Blog/5-17/0_y8jhxk.png)
+
+![Kim Nguyen](https://res.cloudinary.com/dnw6i7lsh/image/upload/v1559108492/Blog/5-17/01_wterqf.png)
+
+![Kim Nguyen](https://res.cloudinary.com/dnw6i7lsh/image/upload/v1559108492/Blog/5-17/1_iug9n3.png)
